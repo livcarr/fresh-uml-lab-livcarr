@@ -7,7 +7,7 @@ What type of word describes the use cases?
 What type of word describes the actors?
   Noun
 Why are primary actors primary?
-  They interact with the system and secondary actors could not interact without them.
+  They interact with the system and secondary actors could not interact with the system without them.
 Why are secondary actors secondary?
   They interact second!
 Why does Verify ID extend Scan Items?
