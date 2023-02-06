@@ -1,1 +1,16 @@
-
+What are the primary actors?
+  Shopper, minor, adult
+What are the secondary actors?
+  Employee
+What type of word describes the use cases?
+  Verb
+What type of word describes the actors?
+  Noun
+Why are primary actors primary?
+  They interact with the system and secondary actors could not interact without them.
+Why are secondary actors secondary?
+  They interact second!
+Why does Verify ID extend Scan Items?
+  In case they have an ID they want to use (discounts, store points)
+Why does Scan Items include Check Cart for Items?
+  Because the customer has to check the cart to scan items (ensure they got everything)
