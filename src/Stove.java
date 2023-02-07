@@ -9,8 +9,8 @@ public class Stove
   
   public setBurnerTemp(int burner, double temp)
   {
-    burner = 0;
-    temp = 0;
+    int burner = this.burner;
+    double temp = this.temp;
     return burner;
     return temp;
   }
@@ -33,7 +33,7 @@ public class Stove
   
   public Burner getBurner(int burner)
   {
-    burner = (Burner)burner;
+    this.burner = (Burner)this.burner;
     return burner;
   }
 }
