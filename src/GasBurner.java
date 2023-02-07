@@ -9,12 +9,12 @@ public class GasBurner
   
   public boolean spark()
   {
-  
+    return true;
   }
   
   public String getGasType()
   {
-  
+    return gasType;
   }
   
   private void increaseGasFlow()
