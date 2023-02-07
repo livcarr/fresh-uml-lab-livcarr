@@ -50,6 +50,6 @@ public class Burner
   
   public boolean isHot()
   {
-    return hot;
+    return true;
   }
 }
