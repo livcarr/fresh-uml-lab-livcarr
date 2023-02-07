@@ -17,12 +17,12 @@ public class gasBurner
   
   }
   
-  public void increaseGasFlow()
+  private void increaseGasFlow()
   {
   
   }
   
-  public void decreaseGasFlow()
+  private void decreaseGasFlow()
   {
   
   }
