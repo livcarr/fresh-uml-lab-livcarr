@@ -7,7 +7,7 @@ public class ElectricBurner
   
   public electricBurner(double voltReq)
   {
-  
+    this.voltReq = voltReq;
   }
   
   public void increaseCurrent()
@@ -22,6 +22,6 @@ public class ElectricBurner
   
   public double getVoltReq()
   {
-  
+    return voltReq;
   }
 }
