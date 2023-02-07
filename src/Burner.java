@@ -7,17 +7,20 @@ public class Burner
   
   public Burner(double maxTemp, double minTemp, double diameter, double isHot)
   {
-  
+    maxTemp = this.maxTemp;
+    minTemp = this.minTemp;
+    diameter = this.diameter;
+    isHot = this.isHot;
   }
   
   public boolean turnOn()
   {
-  
+    return true;
   }
   
   public boolean turnOff()
   {
-  
+    return true;
   }
   
   public void increaseTemp()
@@ -32,21 +35,21 @@ public class Burner
   
   public double getDiameter()
   {
-  
+    return diameter;
   }
   
   public double getMaxTemp()
   {
-  
+    return maxTemp;
   }
   
   public double getMinTemp()
   {
-  
+    return minTemp;
   }
   
   public boolean isHot()
   {
-  
+    return hot;
   }
 }
