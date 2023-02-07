@@ -1,4 +1,4 @@
-public class gasBurner
+public class GasBurner
 {
   private String gasType = "";
   
