@@ -1,5 +1,5 @@
 
-public class electricBurner
+public class ElectricBurner
 {
   private double voltReq = 0;
   private double ampReq = 0;
